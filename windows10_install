@@ -1,0 +1,8 @@
+virt-install \
+--name windows10 \
+--memory 8000 \
+--vcpus 2 \
+--cdrom ~/Downloads/Win10_1809Oct_English_x64.iso \
+--disk size=30 \
+--video qxl \
+--channel spicevmc
